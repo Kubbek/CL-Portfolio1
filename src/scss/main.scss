@@ -1,0 +1,8 @@
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/reset";
+@import "sections/home";
+
+body {
+  font-family:$font-base;
+}
