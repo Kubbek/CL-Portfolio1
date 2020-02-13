@@ -2,7 +2,19 @@
 @import "settings/fonts";
 @import "settings/reset";
 @import "sections/home";
+@import "sections/threecolumns";
+@import "sections/simplesteps";
+@import "sections/aboutus";
 
+*{
+  font-size: 10px;
+}
 body {
   font-family:$font-base;
 }
+
+.container {
+  width: 100vw;
+  max-height: 1900px;
+}
+

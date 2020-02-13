@@ -5,13 +5,17 @@
 .header-container {
   display: flex;
   height: 100vh;
+  position: relative;
 }
 
 .header-img {
+  height: 96rem;
+  width: 85rem;
+  top: 80px;
+  left: -30px;
   background-image: url(../../assets/Home-Hero-Image.jpg);
   background-repeat: no-repeat;
   background-position-x: right;
-  width: 50vw;
 }
 
 .header-nav {
